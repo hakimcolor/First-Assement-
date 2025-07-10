@@ -15,11 +15,18 @@
 }
 
 /* same css  */
+.btn:hover {
+  cursor: pointer;
+  background-color: #6660ff;
+  font-size: 17px;
+}
 .btn {
   background-color: #4e47ff;
   color: white;
   font-weight: bold;
   font-size: 16px;
+  border: none;
+  border-radius: 10px;
 }
 
 /* steart css styling for my header part */
@@ -48,16 +55,21 @@
 .header nav button {
   min-width: 132px;
   height: 48px;
-  border-radius: 10px;
-  border: none;
 }
-.header nav button:hover {
-  cursor: pointer;
-  background-color: #6660ff;
-  font-size: 17px;
-}
-main h1{
-  font-weight: bold;
-font-size: 65px;
 
+main h1 {
+  font-weight: bold;
+  font-size: 65px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+main button {
+  width: 174px;
+  height: 48px;
+  margin-top: 37px;
 }
