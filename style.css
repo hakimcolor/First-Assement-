@@ -31,6 +31,7 @@ body {
   font-size: 16px;
   border: none;
   border-radius: 10px;
+  transition: all 0.2s ease-out;
 }
 
 /* steart css styling for my header part */
@@ -66,7 +67,8 @@ body {
   font-size: 65px;
 }
 .heder-text {
-  display: flex;
+  /* display: flex; */
+  margin-top: 152px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -103,16 +105,52 @@ main {
   font-weight: 400;
   font-size: 24px;
 }
+
 .section1 {
   margin-top: 116px;
   display: flex;
   height: 328px;
   justify-content: space-between;
+  height: auto;
 }
 .section1 img {
   border-radius: 20px;
+  height: 328px;
 }
-.section2
-{
-background-color: #b1afd6;
+.section2 {
+  background-color: #b1afd6;
+  margin-top: 116px;
+  border-radius: 10px;
+}
+
+.section2 h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+.section2 h6 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.section2 h3 {
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  align-items: center;
+  width: 856px;
+  height: 46px;
+}
+.section2-0 {
+  padding: 50px 142px;
+}
+.user {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+/* section3 */
+.section3 h1 {
+  font-weight: bold;
+  font-size: 42px;
 }
