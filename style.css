@@ -153,4 +153,49 @@ main {
 .section3 h1 {
   font-weight: bold;
   font-size: 42px;
+  margin-top: 137px;
+
+  text-align: center;
 }
+.section3-h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.section3 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.section3 h4 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.section3 h6 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.h66 {
+  display: flex;
+
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.continer {
+  background-color: white;
+  display: inline-block;
+  height: 226px;
+  width: 286px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.continer-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
